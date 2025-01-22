@@ -1,0 +1,9 @@
+
+.custom-p {
+    color: white;                
+    background-color: blue;      
+    font-size: 20px;             
+    text-align: center;        
+	text-shadow: horizontal-offset vertical-offset blur-radius color;	
+	 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
