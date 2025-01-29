@@ -50,7 +50,7 @@ h1{
 }
 
 .sqaures:nth-child(1) {
-    background-color: #0400f0;
+    background: #3700ff;
 }
 .sqaures:nth-child(2) {
     background-color: #ab3fdd;
