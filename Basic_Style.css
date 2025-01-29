@@ -17,7 +17,7 @@ h1{
 
 .container .squares:nth-child(-n+4){
     background-image: url("../Icon Folder/icon2.png");
-    color: #fff;
+    color: #0c0000;
     float: left;
     width: 100px;
     height: 100px;
@@ -25,4 +25,21 @@ h1{
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+}
+
+.sqaure:nth-child(1){
+    background: #4240ff;
+
+}
+.sqaure:nth-child(2){
+    background: #ab3fdd;
+    
+}
+.sqaure:nth-child(3){
+    background: #4ae163e;
+    
+}
+.sqaure:nth-child(4){
+    background: #00b200;
+    
 }
