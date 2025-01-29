@@ -29,17 +29,13 @@ h1{
 
 .sqaure:nth-child(1){
     background: #4240ff;
-
 }
 .sqaure:nth-child(2){
     background: #ab3fdd;
-    
-}
+    }
 .sqaure:nth-child(3){
     background: #4ae163e;
-    
-}
+    }
 .sqaure:nth-child(4){
     background: #00b200;
-    
-}
+    }
