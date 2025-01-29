@@ -54,6 +54,11 @@ h1{
 
 .container .squares:nth-child(-n+4):hover{
     background-image: url("../Icon Folder/icon3.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
 .squares:nth-child(1):hover{
@@ -69,3 +74,12 @@ h1{
     background-color: #77b800;
 }
 
+@keyframes race{
+    0%, 100%{
+        transform: translateY(0px);
+        background-image: url("../Icon Folder/icon.png");
+    }
+    50%{
+        transform: translateX(300px);
+    }
+}    
