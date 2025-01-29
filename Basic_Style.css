@@ -62,8 +62,8 @@ h1{
     background-color: #00b200;
 }
 
-.container .squares:nth-child(-n+4) :hover{
-    background-image: url("../Icon Folder/icon2.png");
+.container .squares:nth-child(-n+4):hover{
+    background-image: url("../Icon Folder/icon3.png");
 }
 
 .squares:nth-child(1):hover{
