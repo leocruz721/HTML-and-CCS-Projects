@@ -7,3 +7,22 @@ h1{
     margin-left: 100px;
     text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.6 );
 }
+.container{
+    width: 450px;
+    height: 450px; 
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.container .squares:nth-child(-n+4){
+    background-image: url(C:\Users\leoja\Documents\HTML-and-CCS-Projects\HTML-and-CCS-Projects-1\Icon folder\icon2.png);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
