@@ -35,19 +35,19 @@ h1{
     margin: 0;
     text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8 );    
 }
-.sqaures:nth-child(1){
+.sqaures:nth-child(1) {
     background: #4240ff;
 }
-.sqaures:nth-child(2){
+.sqaures:nth-child(2) {
     background: #ab3fdd;
     }
-.sqaures:nth-child(3){
+.sqaures:nth-child(3) {
     background: #ae163e;
     }
-.sqaures:nth-child(4){
+.sqaures:nth-child(4) {
     background: #00b200;
     }
-    
+
 .container .sqaure:nth-child(-n+4){
     background-image: url("../Icon Folder/icon1.png");
     color: #fff;
