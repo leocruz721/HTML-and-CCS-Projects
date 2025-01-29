@@ -49,18 +49,18 @@ h1{
     text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8 );    
 }
 
-.sqaures:nth-child(1) {
-    background: #3700ff;
+.squares:nth-child(1) {
+    background-color: #3700ff;
 }
-.sqaures:nth-child(2) {
+.squares:nth-child(2) {
     background-color: #ab3fdd;
-    }
-.sqaures:nth-child(3) {
+}
+.squares:nth-child(3) {
     background-color: #ae163e;
-    }
-.sqaures:nth-child(4) {
+}
+.squares:nth-child(4) {
     background-color: #00b200;
-    }
+}
 
 
 
