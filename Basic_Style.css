@@ -27,7 +27,7 @@ h1{
     cursor: pointer;
 }
 .container .sqaures:nth-child(-n+4){
-    background-image: url("");
+    background-image: url("../Icon Folder/icon1.png");
     color: #fff;
     float: left;
     width: 100px;
