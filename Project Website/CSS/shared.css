@@ -136,7 +136,7 @@ section {
     width: 100%;
     position: fixed;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(241, 230, 230, 0.5);
 }
 
 #home {
@@ -252,7 +252,7 @@ section {
     font-family: 'Raleway', sans-serif;
     }
 
-    .reservation input[type="text"] {
+.reservation input[type="text"] {
         font-size: 15px;
         outline: none;
         font-weight: 600;
@@ -270,17 +270,17 @@ section {
         font-family: 'Raleway', sans-serif;
     }
 
-    .reservation input[type="text"]:hover {
+.reservation input[type="text"]:hover {
         box-shadow: 0 0 18px rgba(100, 65, 0, .8);
     }
 
-    .form-spacer {
+.form-spacer {
         padding: 30px 39px;
     }
 
-    .terms {
+.terms {
         margin: 30px 1px 0 0;
-        margin-top: 13%;
+        margin-top: 5%;
         padding-left: 52px;
         font-size: 14px;
         line-height: 5px;
@@ -293,12 +293,12 @@ section {
         float: right;
     }
 
-    .terms:hover {
+.terms:hover {
         color: orange;
         text-decoration: underline;
     }
 
-    .submit input[type="submit"] {
+.submit input[type="submit"] {
         color: rgb(255, 255, 255);
         cursor: pointer;
         border: none;
@@ -316,9 +316,55 @@ section {
         box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
     }
 
-    .submit input[type="submit"]:hover {
+.submit input[type="submit"]:hover {
         color: #fff;
         background-color: #8d8e8f;
         box-shadow: inset 1px 2px 15px 0px rgba(0, 0, 0, 0.5);
     }
-    
+    /*------------------------------------*
+        FOOTER STYLE
+    *------------------------------------*/
+
+#footer {
+        background-color: rgba(100, 65, 0, 0.3);
+        color: #000;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+        padding: 20px 50px 20px 50px;
+        text-align: right;
+    }
+
+/*------------------------------------*
+        @MEDIA QUERIES
+*------------------------------------*/
+
+@media all and (max-width: 640px) and (min-width: 381px) {
+        .head-main {
+            font-size: 28px;
+        }
+     }
+
+@media all and (max-width: 381px) and (min-width:200px) {
+        .head-main {
+            font-size: 28px;
+        }
+     }
+@media all and (max-width: 768px) {
+        .contianer {
+            width: 750px;
+        }
+     }
+
+@media all and (max-width: 992px) {
+        .contianer {
+            width: 970px;
+        }
+     }
+
+@media all and (max-width: 1200px) {
+        .contianer {
+            width: 1170px;
+        }
+     }
+
+     
+
