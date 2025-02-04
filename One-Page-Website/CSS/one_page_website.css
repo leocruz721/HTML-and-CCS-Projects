@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    font-size: 20px; 
+}
+
+/* Styling for form inputs */
+form input {
+    width: 100%; 
+    margin-bottom: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+}
+
+/* Optional: Styling for form textareas or other input types */
+form textarea {
+    width: 100%; 
+    margin-bottom: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+}
