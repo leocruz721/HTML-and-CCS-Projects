@@ -90,6 +90,7 @@ footer {
 .navbar {
     background-color: #333; /* Background color */
     padding: 10px 0;
+    
   }
   
   .navbar ul {
@@ -97,6 +98,7 @@ footer {
     margin: 0;
     padding: 0;
     text-align: center;
+    
   }
   
   .navbar li {
@@ -105,7 +107,7 @@ footer {
   }
   
   .navbar a {
-    color: white; /* Font color */
+    color: rgb(4, 252, 231); /* Font color */
     text-decoration: none;
     font-size: 18px;
     padding: 5px 10px;
