@@ -22,18 +22,20 @@ body {
       
   }
 
-.image-text {
-    position: auto;
-    top: auto; 
-    left: auto; 
-    transform: translate(-50%, -50%); 
+  .container {
+    position: relative;
     text-align: center;
-    color: rgba(226, 6, 255, 0.884); 
-    font-size: 25px; 
-    font-weight: bold; 
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
-}
+    color: white;
+  }
 
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(3, 202, 252);
+  font-size: 75px;
+}
 
 /* Table heading styling */
 .table-heading {
@@ -76,7 +78,7 @@ body {
 
 footer {
     text-align: center;  /* Center the text inside the footer */
-    padding: 20px;       /* Adds space around the text */
+    padding: 2px;       /* Adds space around the text */
     background-color: #333;  /* Dark background color */
     color: #fff;         /* White text color */
     position: fixed;     /* Fix the footer at the bottom of the page */
