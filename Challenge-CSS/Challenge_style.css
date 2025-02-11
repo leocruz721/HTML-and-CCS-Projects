@@ -7,20 +7,20 @@ body {
 }
 
 /* Image styling */
-.top-image {
-    width: auto;          /* Image will stretch to fill the width of the screen */
-    height: auto;         /* Maintain aspect ratio */
-    border-radius: 15px; /* Rounded edges */
-    filter: grayscale(50%) brightness(1.2); /* Apply a filter: grayscale and brightness */
-    transition: transform 0.3s ease;
-   
-}
-
 .image-container {
-    position: auto;
-    width: 100%; /* Ensure it takes full width */
-    height: 400px; /* Set a height for the container */
-}
+    filter: opacity(100%);
+      
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid rgba(76, 0, 255, 0.904);
+    border-radius: 25px;
+      
+  }
 
 .image-text {
     position: auto;
