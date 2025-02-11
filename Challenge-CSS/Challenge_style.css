@@ -15,15 +15,15 @@ body {
     margin: auto;
     filter: opacity(100%);
       
-  }
+}
 
-  .center {
+.center {
     width: 100%;
     height: 100%;
     object-fit: cover;  /* Ensures the image covers the container without distortion */
     border: 2px solid rgba(76, 0, 255, 0.904);
     border-radius: 25px;
-  }
+}
 
 
 .centered {
@@ -36,7 +36,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow for better text visibility */
     z-index: 2;  /* Ensure the text is above the overlay */
-  }
+ }
 
 /* The overlay */
 .overlay {
@@ -53,12 +53,12 @@ body {
     transition: opacity 0.3s ease;  
     font-size: 100px;
     color: blue;
-  }
+}
+
 /* Show the overlay when hovering over the container */
 .image-container:hover .overlay {
     opacity: 1; 
 }
-  
 
 /* Table heading styling */
 .table-heading {
@@ -101,12 +101,12 @@ body {
 
 footer {
     text-align: center;  
-    padding: 2px;       
+    padding: 0px;       
     background-color: #333;  
     color: #fff;         
     position: fixed;     
     bottom: 0;           
-    width: 100%;         
+    width: 100%; 
     font-size: 14px;     
 }
 
@@ -114,36 +114,36 @@ footer {
     background-color: #333; 
     padding: 10px 0;
     
-  }
+}
   
-  .navbar ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     
-  }
+}
   
-  .navbar li {
+.navbar li {
     display: inline;
     margin: 0 20px;
-  }
+}
   
-  .navbar a {
+.navbar a {
     color: rgb(4, 252, 231); 
     text-decoration: none;
     font-size: 18px;
     padding: 5px 10px;
     transition: background-color 0.3s; 
-  }
+}
   
-  /* Hover effect */
-  .navbar a:hover {
+/* Hover effect */
+.navbar a:hover {
     background-color: #555; 
     border-radius: 5px;
-  }
+}
 
-  /* Container to hold both columns */
+/* Container to hold both columns */
 .container {
   display: flex; 
   padding: 20px;
@@ -178,11 +178,38 @@ p {
     transition: color 0.3s ease; 
     position: relative;
     margin-left: 10%;
-  }
+}
   
   /* Hover effect */
-  p.hover-effect:hover {
+p.hover-effect:hover {
     color: blue; 
     cursor: pointer; 
-  }
+}
 
+.video-container {
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white; 
+}
+
+video {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    width: 50%;  
+    height: 50%; 
+    object-fit: cover; 
+}
+
+.centered-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+  }
