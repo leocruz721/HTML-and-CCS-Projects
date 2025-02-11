@@ -1,7 +1,7 @@
 /* Default paragraph styling */
 p {
     font-size: 16px;
-    color: rgb(4, 41, 250); /* Default color */
+    color: rgb(46, 1, 245); /* Default color */
 }
 
 /* Media Query for screens smaller than 600px */
