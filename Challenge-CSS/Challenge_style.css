@@ -129,11 +129,13 @@ footer {
 
 /* Left column style */
 .left-column {
-  flex: 1; /* This will allow it to take equal space */
-  background-color: #f0f0f0; /* Light gray background */
+  flex: 1; 
+  background-color: #f0f0f0; 
   padding: 20px;
   border-radius: 5px;
-  color: #333; /* Font color for text in the left column */
+  color: #ff0404; 
+  height: 200px;
+  width: 50%;
 }
 
 /* Right column style */
@@ -142,5 +144,7 @@ footer {
   background-color: #e0e0e0; /* Slightly darker gray */
   padding: 20px;
   border-radius: 5px;
-  color: #444; /* Font color for text in the right column */
+  color: #fd0505; /* Font color for text in the right column */
+  height: 200px;
+  width: 50%;
 }
