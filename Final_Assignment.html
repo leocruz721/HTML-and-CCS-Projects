@@ -1,100 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="Final-Assignment-CSS\Final_Assignment.css">
-</head>
-<body>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Leo Cruz</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\leoja\Desktop\leojancruz.css">
+    </head>
 
-    <!-- Header with navigation -->
-    <header>
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#photos">Photos</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
         </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Leo's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Leo. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="C:\Users\leoja\Downloads\image1.jpg" alt="coding">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I'm Leo Cruz, a passionate web developer specializing in front-end technologies like HTML, CSS, JavaScript, and more. I love building interactive, user-friendly websites and am always learning new tools and techniques to enhance my skill set. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/leocruz721/HTML-and-CCS-Projects.git" target="_blank">Leo's Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/leocruz721/HTML-and-CCS-Projects.git" target="_blank"><img src="C:\Users\leoja\Downloads\github.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="C:\Users\leoja\Downloads\image2.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
             <p>
-                I'm Leo Cruz, a passionate web developer specializing in front-end technologies like HTML, CSS, JavaScript, and more. I love building interactive, user-friendly websites and am always learning new tools and techniques to enhance my skill set.
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
             </p>
-            <img src="Final-Assignment-CSS\Images\photo.jpg" alt="Your photo">
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <h3>Project 1: Space Station</h3>
-                    <p>A Space Station website that showcases my work, skills, and projects.</p>
-                    <a href="https://github.com/leocruz721/HTML-and-CCS-Projects/blob/main/SpaceStation2.html" target="_blank">View on GitHub</a>
-                </div>
-                <div class="project">
-                    <h3>Project 2: E-commerce Website</h3>
-                    <p>A Drifting website that I created when I was in the course</p>
-                    <a href="https://github.com/leocruz721/HTML-and-CCS-Projects/blob/main/Challenge_module5.html" target="_blank">View on GitHub</a>
-                </div>
-                <div class="project">
-                    <h3>Project 3: Weather App</h3>
-                    <p>A website that I created about cars.</p>
-                    <a href="https://github.com/leocruz721/HTML-and-CCS-Projects/blob/main/one_page_website.html" target="_blank">View on GitHub</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Photos Section -->
-    <section id="photos" class="section">
-        <div class="container">
-            <h2>Photos</h2>
-            <div class="photo-gallery">
-                <img src="Final-Assignment-CSS\Images\Space.jpg" alt="Project Photo 1">
-                <img src="Final-Assignment-CSS\Images\Cars.jpg" alt="Project Photo 2">
-                <img src="Final-Assignment-CSS\Images\Drift.jpg" alt="Project Photo 3">
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="#" method="POST">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>© 2025 [Your Name]. All rights reserved.</p>
-        </div>
-    </footer>
-
-</body>
+        </footer>
+    </body>
 </html>
