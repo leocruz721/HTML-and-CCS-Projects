@@ -239,9 +239,9 @@ footer {
 /* input[type=text] targets all text input sections of the contact form */
 input[type=text] {
     width: 100%; /* Each input box covers the full width of the container */
-    padding: 12px; /* Adds padding within the text box */
+    padding: 4px; /* Adds padding within the text box */
     border: 1px solid #ccc; /* Setting a solid border and its color */
-    border-radius: 4px; /* Slightly rounds the corners of the text box border */
+    border-radius: 6px; /* Slightly rounds the corners of the text box border */
     box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
     margin-top: 6px; /* Adds a margin to the top of the text box */
     margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
@@ -273,7 +273,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: white; /* Turns the background of the submit button white when the user hovers over it */
     color: black; /* Turns the font black when hovered over */
-    transform: scale(1.5); /* Makes the button increase 1.5 times in size */
+    transform: scale(1.0); /* Makes the button increase 1.5 times in size */
     transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
 }
 
